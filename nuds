@@ -103,6 +103,27 @@ public class ContactManager {
                     break;
                 default:
                     System.out.println("Некорректный выбор. Повторите попытку.");
+            }itch (choice) {
+                case 11:
+                    System.out.print("Введите имя контакта: ");
+                    String name = scanner.nextLine();
+                    System.out.print("Введите номер телефона контакта: ");
+                    String phoneNumber = scanner.nextLine();
+                    contactManager.addContact(name, phoneNumber);
+                    break;
+                case 22:
+                    contactManager.viewContacts();
+                    break;
+                case 33:
+                    System.out.print("Введите имя контакта для удаления: ");
+                    String contactName = scanner.nextLine();
+                    contactManager.deleteContact(contactName);
+                    break;
+                case 00:
+                    System.out.println("Выход из программы.");
+                    break;
+                default:
+                    System.out.println("Некорректный выбор. Повторите попытку.");
             }
         } while (choice != 0);
 
