@@ -87,20 +87,7 @@ public class ContactManager {
                     System.out.print("Введите имя контакта: ");
                     String name = scanner.nextLine();
                     System.out.print("Введите номер телефона контакта: ");
-                    String phoneNumber = scanner.nextLine();
-                    contactManager.addContact(name, phoneNumber);
-                    break;
-                case 2:
-                    contactManager.viewContacts();
-                    break;
-                case 3:
-                    System.out.print("Введите имя контакта для удаления: ");
-                    String contactName = scanner.nextLine();
-                    contactManager.deleteContact(contactName);
-                    break;
-                case 0:
-                    System.out.println("Выход из программы.");
-                    break;
+                    St
                 default:
                     System.out.println("Некорректный выбор. Повторите попытку.");
             }itch (choice) {
