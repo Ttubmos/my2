@@ -71,31 +71,6 @@ public class ContactManager {
         ContactManager contactManager = new ContactManager();
         Scanner scanner = new Scanner(System.in);
 
-        int choice;
-        do {
-            System.out.println("\n1. Добавить контакт");
-            System.out.println("2. Просмотреть контакты");
-            System.out.println("3. Удалить контакт");
-            System.out.println("0. Выйти");
-
-            System.out.print("Выберите действие: ");
-            choice = scanner.nextInt();
-            scanner.nextLine();  // consume newline
-
-            switch (choice) {
-                case 1:
-                    System.out.print("Введите имя контакта: ");
-                    String name = scanner.nextLine();
-                    System.out.print("Введите номер телефона контакта: ");
-                    St
-                default:
-                    System.out.println("Некорректный выбор. Повторите попытку.");
-            }itch (choice) {
-                case 11:
-                    System.out.print("Введите имя контакта: ");
-                    String name = scanner.nextLine();
-                    System.
-
-        scanner.close();
+    
     }
 }
