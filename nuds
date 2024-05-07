@@ -6,11 +6,7 @@ class Contact {
     private String phoneNumber;
 
     public Contact(String name, String phoneNumber) {
-        this.name = name;
-        this.phoneN + name + "\nНомер телефона: " + phoneNumber + "\n";
-    }
-}
-
+    
 public class ContactManager {
     private ArrayList<Contact> contacts;
     private Scanner scanner;
