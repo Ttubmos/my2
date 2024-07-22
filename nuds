@@ -4,14 +4,6 @@ import java.util.Scanner;
 class Contact {
     private String name;
     private String phoneNumber;
-
-    public Contact(String name, String phoneNumber) {
-
-        contacts = new ArrayList<>();
-        scanner = new Scanner(System.in);
-    });
-    }
-
     public void viewContacts() {
         if (contacts.isEmpty()) {
             System.out.println("Список контактов пуст.");
